@@ -157,17 +157,10 @@ td.text-right {
 		</div>
 		<a href="showComp.jsp">Company</a>
 		<table class="table-fill">
-		<thead>
-			<tr>
-				<th class="text-left">Field</th>
-				<th class="text-left">Value</th>
-				
-			</tr>
-		</thead>
 		<tbody class="table-hover">
 			<tr>
 				<td class="text-left">Name</td>
-				<td class="text-left"><%=request.getSession().getAttribute("name")%></td>
+				<td class="text-left"><%=request.getAttribute("name")%></td>
 				
 			</tr>
 			<tr>
@@ -182,5 +175,7 @@ td.text-right {
 			</tr>
 		</tbody>
 		</table>
+		<a href ="index.jsp"><button> logout </button></a> 
+		
 	</body>
 </html>

@@ -6,7 +6,7 @@
         <title>JSP Example</title>
     </head>
     <body>
-        <form method="post" action="login.jsp">
+        <form action="x" method="post">
             <table border="1" >
                 <thead>
                     <tr>
